@@ -4,10 +4,3 @@ compatibility_flags = ["nodejs_compat"]
 
 [site]
 bucket = "./dist"
-workers_dev = false
-
-[build]
-command = "pnpm run build"
-
-[env.production]
-name = "walnutbai-production"
