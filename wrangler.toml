@@ -1,7 +1,7 @@
 name = "walnutbai"
-main = "./dist/_worker.js"
 compatibility_date = "2026-03-30"
 compatibility_flags = ["nodejs_compat"]
+
 [site]
 bucket = "./dist"
 
