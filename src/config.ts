@@ -21,20 +21,20 @@ import { LinkPreset } from "./types/config";
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
-const SITE_LANG = "ja"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
+	title: "琉璃亭",
+	subtitle: "✿白箬璃❀ᵒᵏᵎ的个人博客",
+	siteURL: "https://walnutbai.dpdns.org/", // 请替换为你的站点URL，以斜杠结尾
+	siteStartDate: "2026-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 60, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 240, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
@@ -131,6 +131,12 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/4.webp",
 				"/assets/desktop-banner/5.webp",
 				"/assets/desktop-banner/6.webp",
+				"/assets/desktop-banner/7.webp",
+				"/assets/desktop-banner/8.webp",
+				"/assets/desktop-banner/9.webp",
+				"/assets/desktop-banner/10.webp",
+				"/assets/desktop-banner/11.webp",
+				"/assets/desktop-banner/12.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/1.webp",
@@ -139,6 +145,12 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/4.webp",
 				"/assets/mobile-banner/5.webp",
 				"/assets/mobile-banner/6.webp",
+				"/assets/mobile-banner/7.webp",
+				"/assets/mobile-banner/8.webp",
+				"/assets/mobile-banner/9.webp",
+				"/assets/mobile-banner/10.webp",
+				"/assets/mobile-banner/11.webp",
+				"/assets/mobile-banner/12.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -286,22 +298,18 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					name: "QQ",
+
+					url: "https://vip.123pan.cn/1813811951/yk6baz03t0n000d7w33hp3p3orfsqbg8DIYPDwYPDIryDGxwDqYwDY==.jpg",
 					external: true,
-					icon: "fa7-brands:github",
+					icon: "fa7-brands:qq",
 				},
 				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					name: "WeChat",
+
+					url: "https://vip.123pan.cn/1813811951/ymjew503t0m000d7w32y3w1m2xypiw30DIYPDwYPDIryDGxwDqYwDY==.jpg",
 					external: true,
-					icon: "fa7-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
+					icon: "fa7-brands:weixin",
 				},
 			],
 		},
@@ -376,38 +384,26 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "まつざか ゆき",
-	bio: "世界は大きい、君は行かなければならない",
+	avatar: "assets/images/myshow.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "✿白箬璃❀ᵒᵏᵎ",
+
+	bio: "我不受欢迎，怎么想都是你们的错。",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
 	},
 	links: [
 		{
-			name: "Bilibili",
-			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			name: "QQ",
+			icon: "fa7-brands:qq",
+
+			url: "https://vip.123pan.cn/1813811951/yk6baz03t0n000d7w33hp3p3orfsqbg8DIYPDwYPDIryDGxwDqYwDY==.jpg",
 		},
 		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
-		{
-			name: "GitHub",
-			icon: "fa7-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
-		},
-		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
-		{
-			name: "Discord",
-			icon: "fa7-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			name: "微信",
+			icon: "fa7-brands:weixin",
+
+			url: "https://vip.123pan.cn/1813811951/ymjew503t0m000d7w32y3w1m2xypiw30DIYPDwYPDIryDGxwDqYwDY==.jpg",
 		},
 	],
 };
@@ -482,14 +478,14 @@ export const shareConfig: ShareConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "ブログへようこそ！これはサンプルの告知です", // 公告内容
-	closable: true, // 允许用户关闭公告
+	title: "公告",
+	content: "欢迎来到我的个人博客，我会在这里分享一些我的日常、想法、和教程。",
+	closable: false, // 重要公告，不允许关闭
 	link: {
-		enable: true, // 启用链接
-		text: "Learn More", // 链接文本
-		url: "/about/", // 链接 URL
-		external: false, // 内部链接
+		enable: false,
+		text: "嘻嘻嘻",
+		url: "https://1813811951.v.123pan.cn/1813811951/20905926",
+		external: true, // 外部链接，在新标签页打开
 	},
 };
 
@@ -497,10 +493,10 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
 	showFloatingPlayer: true, // 显示悬浮播放器 UI
 	floatingEntryMode: "fab", // 悬浮入口模式："default" 为独立悬浮播放器，"fab" 为集成到通用 FAB 组
-	mode: "local", // 音乐播放器模式，可选 "local" 或 "meting"
+	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
 		"https://meting.mysqil.com/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
-	id: "14164869977", // 歌单ID
+	id: "12484900798", // 歌单ID
 	server: "netease", // 音乐源服务器。有的meting的api源支持更多平台,一般来说,netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐
 	type: "playlist", // 播单类型
 };
@@ -648,12 +644,12 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 };
 
 export const sakuraConfig: SakuraConfig = {
-	enable: false, // 默认关闭樱花特效
+	enable: true, // 默认关闭樱花特效
 	sakuraNum: 21, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
-		min: 0.5, // 樱花最小尺寸倍数
-		max: 1.1, // 樱花最大尺寸倍数
+		min: 0.1, // 樱花最小尺寸倍数
+		max: 0.6, // 樱花最大尺寸倍数
 	},
 	opacity: {
 		min: 0.3, // 樱花最小不透明度
@@ -676,25 +672,33 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: false, // 禁用看板娘以提升性能
+	enable: true, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
-	position: "left", // 模型位置
+	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "欢迎来到 ✿白箬璃❀ᵒᵏᵎ的个人博客！", // 欢迎词
 		touch: [
-			"What are you doing?",
-			"Stop touching me!",
+			"你在干什么？",
+			"再摸我就报警了！",
 			"HENTAI!",
-			"Don't bully me like that!",
+
+			"不可以这样欺负我啦！",
+			"哎呀，别碰那里~",
+			"非礼啊！",
+			"讨厌~",
+			"你好过分哦！",
+			"住手！",
+			"我要生气了！",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
-		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
-		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
+
+		home: "点击这里回到首页！", // 首页提示
+		skin: ["想看看我的新衣服吗？", "新衣服真漂亮~"], // 换装提示
+		close: "QWQ 下次再见吧~", // 关闭提示
+		link: "https://walnutbai.dpdns.org", // 关于链接
 	},
 };
 
