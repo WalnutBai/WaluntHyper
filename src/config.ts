@@ -125,19 +125,42 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
-				"/assets/desktop-banner/5.webp",
-				"/assets/desktop-banner/6.webp",
-				"/assets/desktop-banner/7.webp",
-				"/assets/desktop-banner/8.webp",
-				"/assets/desktop-banner/9.webp",
-				"/assets/desktop-banner/10.webp",
-				"/assets/desktop-banner/11.webp",
-				"/assets/desktop-banner/12.webp",
-			], // 桌面横幅图片
+				"/assets/desktop-banner/ZZZ/image1.png",
+				"/assets/desktop-banner/ZZZ/image2.png",
+				"/assets/desktop-banner/ZZZ/image3.png",
+				"/assets/desktop-banner/ZZZ/image4.png",
+				"/assets/desktop-banner/ZZZ/image5.png",
+				"/assets/desktop-banner/ZZZ/image6.png",
+				"/assets/desktop-banner/ZZZ/image7.png",
+				"/assets/desktop-banner/ZZZ/image8.png",
+				"/assets/desktop-banner/ZZZ/image9.png",
+				"/assets/desktop-banner/ZZZ/image10.png",
+				"/assets/desktop-banner/ZZZ/image12.png",
+				"/assets/desktop-banner/ZZZ/image13.png",
+				"/assets/desktop-banner/ZZZ/image14.png",
+				"/assets/desktop-banner/ZZZ/image15.png",
+				"/assets/desktop-banner/ZZZ/image16.png",
+				"/assets/desktop-banner/ZZZ/image17.png",
+				"/assets/desktop-banner/ZZZ/image18.png",
+				"/assets/desktop-banner/ZZZ/image19.png",
+				"/assets/desktop-banner/ZZZ/image20.png",
+				"/assets/desktop-banner/ZZZ/image21.png",
+				"/assets/desktop-banner/ZZZ/image22.png",
+			], // 桌面横幅图片（共 22 张）
+			// [
+			// 				"/assets/desktop-banner/1.webp",
+			// 				"/assets/desktop-banner/2.webp",
+			// 				"/assets/desktop-banner/3.webp",
+			// 				"/assets/desktop-banner/4.webp",
+			// 				"/assets/desktop-banner/5.webp",
+			// 				"/assets/desktop-banner/6.webp",
+			// 				"/assets/desktop-banner/7.webp",
+			// 				"/assets/desktop-banner/8.webp",
+			// 				"/assets/desktop-banner/9.webp",
+			// 				"/assets/desktop-banner/10.webp",
+			// 				"/assets/desktop-banner/11.webp",
+			// 				"/assets/desktop-banner/12.webp",
+			// 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/1.webp",
 				"/assets/mobile-banner/2.webp",
@@ -158,7 +181,7 @@ export const siteConfig: SiteConfig = {
 
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
-			interval: 3, // 轮播间隔时间（秒）
+			interval: 8, // 轮播间隔时间（秒）
 		},
 
 		waves: {
