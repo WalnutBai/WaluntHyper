@@ -4,6 +4,7 @@ published: 2026-06-04
 tags: [音乐]
 category: 工具推荐
 draft: false
+pinned: true
 ---
 
 你能看到这个链接，我估计你大概也是知道 LX Music，所以说这里也不过多介绍。这次主要介绍的是这个项目的原版开源地址和我的改版后的开源地址。
@@ -90,8 +91,8 @@ draft: false
 
 <table>
   <tr>
-    <td><img src="/src/content/posts/lxnmusic/演示1.jpg" alt="演示效果1" width="300" height="200"></td>
-    <td><img src="/src/content/posts/lxnmusic/演示2.jpg" alt="演示效果2" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/演示1.jpg" alt="演示效果1" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/演示2.jpg" alt="演示效果2" width="300" height="200"></td>
   </tr>
 </table>
 
@@ -99,19 +100,19 @@ draft: false
 
 <table>
   <tr>
-    <td><img src="/src/content/posts/lxnmusic/1.jpg" alt="效果1" width="300" height="200"></td>
-    <td><img src="/src/content/posts/lxnmusic/2.jpg" alt="效果2" width="300" height="200"></td>
-    <td><img src="/src/content/posts/lxnmusic/3.jpg" alt="效果3" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/1.jpg" alt="效果1" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/2.jpg" alt="效果2" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/3.jpg" alt="效果3" width="300" height="200"></td>
   </tr>
   <tr>
-    <td><img src="/src/content/posts/lxnmusic/4.jpg" alt="效果4" width="300" height="200"></td>
-    <td><img src="/src/content/posts/lxnmusic/5.jpg" alt="效果5" width="300" height="200"></td>
-    <td><img src="/src/content/posts/lxnmusic/6.jpg" alt="效果6" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/4.jpg" alt="效果4" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/5.jpg" alt="效果5" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/6.jpg" alt="效果6" width="300" height="200"></td>
   </tr>
   <tr>
-    <td><img src="/src/content/posts/lxnmusic/7.jpg" alt="效果7" width="300" height="200"></td>
-    <td><img src="/src/content/posts/lxnmusic/8.jpg" alt="效果8" width="300" height="200"></td>
-    <td><img src="/src/content/posts/lxnmusic/9.jpg" alt="效果9" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/7.jpg" alt="效果7" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/8.jpg" alt="效果8" width="300" height="200"></td>
+    <td><img src="/images/posts/lxnmusic/9.jpg" alt="效果9" width="300" height="200"></td>
   </tr>
 </table>
 
