@@ -24,6 +24,13 @@ export const devicesData: DeviceCategory = {
 			description: "出厂HyperOS1 但是Root的嘻嘻嘻",
 			link: "https://www.mi.com/prod/redmi-k70-ultra",
 		},
+		{
+			name: "Xiaomi 17 Pro Max",
+			image: "/images/device/Xiaomi 17 Pro Max.webp",
+			specs: "松叶绿 / 16G + 1TB",
+			description: "拍照很顶，续航很强Root的嘻嘻嘻",
+			link: "https://www.mi.com/prod/xiaomi-17-pro-max",
+		},
 	],
 	平板: [
 		{
